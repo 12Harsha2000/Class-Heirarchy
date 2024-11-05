@@ -99,13 +99,5 @@ int main() {
     std::cout << "Diesel Engine Efficiency: " << dieselEngine->GetEfficiency() << "%\n";
     std::cout << "Steam Engine Efficiency: " << steamEngine->GetEfficiency() << "%\n";
 
-    // Clean up
-    delete covid;
-    delete hiv;
-    delete birdFlu;
-    delete petrolEngine;
-    delete dieselEngine;
-    delete steamEngine;
-
     return 0;
 }
